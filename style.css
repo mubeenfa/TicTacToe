@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7c7c7c;
+    text-align: center;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+h1 {
+    color: #eee5e9;
+}
+
+.canvas {
+    height: 70vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    /* background-color: #eee5e9; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #efc88b;
+    color: eee5e9;
+    border-radius: 15px;
+    border: none;
+    font-size: 6rem;
+    font-family: rebellion;
+}
+
+@font-face {
+    font-family: rebellion;
+    src: url(fonts/RebellionSquad-ZpprZ.ttf);
+}
+
+.game button:hover {
+    color: #fff;
+    box-shadow: 1px 1px #7c7c7c;
+}
+
+#reset-btn {
+    padding: 1rem;
+    color: #eee5e9;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 700;
+    background-color: #cf5c36;
+    border-radius: 8px;
+    border: none;
+}
+
+#newgame-btn {
+    padding: 1rem;
+    color: #cf5c36  ;
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 700;
+    background-color: #eee5e9;
+    border-radius: 8px;
+    border: none;
+}
+
+.msg-container {
+    height: 20vmin;
+}
+
+#message {
+    color: #eee5e9;
+    font-size: 5vmin;
+}
+
+#reset:hover {
+    box-shadow: 1px 1px #eee5e9;
+}
+
+.hide {
+    display: none;
+}
